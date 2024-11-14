@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto Educativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="ESCUDO.png">
+            <h3>"CARMEN GUZMÁN DE MIER 1"</h3>
+        </div>
+       
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/noticias/noticias.html">Noticias</a></li>
+                <li><a href="/calendario/calendario.html">Calendario</a></li>
+                <li><a href="/academico/academico.html">Seccion Academica</a></li>
+                <li><a href="">Galerias</a></li>
+                <li><a href="#contacto">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <main>
+        <section class="filters" style="margin-top: 100px;">
+            <button class="filter-btn" data-category="all">TODOS</button>
+            <button class="filter-btn" data-category="consejo-estudiantil">CONSEJO ESTUDIANTIL</button>
+            <button class="filter-btn" data-category="banda">BANDA</button>
+            <button class="filter-btn" data-category="infraestructura">INFRAESTRUCTURA</button>
+            <button class="filter-btn" data-category="video">VIDEO</button>
+            <button class="filter-btn" data-category="ubicacion">UBICACIÓN</button>
+        </section>
+    <section id="galeria" class="seccion-galeria">
+        <br>
+        <div class="galeria2">
+        <img src="gobierno.jpg" class="galleryitem"  data-category="consejo-estudiantil" alt="gobierno">
+        <img src="centro.jpg" class="galleryitem"  data-category="consejo-estudiantil" alt="gobierno">
+        <img src="Banda2024.jpg" width="750" height="400" class="galleryitem" data-category="banda" alt="banda">
+        <img src="BANDAuwu.jpg" width="750" height="400" class="galleryitem" data-category="banda" alt="banda">
+        <img src="banda.jpg" class="galleryitem" data-category="banda" alt="banda">
+        <img src="colegio.jpg" class="galleryitem" data-category="infraestructura" alt="infraestructura">
+        <img src="colegio2.jpg" class="galleryitem" data-category="infraestructura" alt="infraestructura">
+        </div>
+    </section>
+    </main>
+    <main>
+    <section id="videos" class="seccion-videos">
+        <div class="videos2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/F6-ZEA_eY3E?si=9EZjd9HK69RSQpNp" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="galleryitem" data-category="video"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xpgh9tqYJe0?si=jq3MPkqftpBzV2cj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="galleryitem" data-category="video"></iframe>
+        </div>
+    </section>
+    <section id="videos" class="seccion-ubicacion" class="gall" data-category="ubicacion">
+        <div class="ubicacion">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.199128757453!2d-67.10009522593026!3d-17.969470280262648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e2b0b4704b4c37%3A0xe3ca148eb89f3fd8!2sUnida%20Educativa%20Carmen%20Guzman%20De%20Mier!5e0!3m2!1ses-419!2sbo!4v1731357293543!5m2!1ses-419!2sbo" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="galleryitem" data-category="ubicacion"></iframe>
+        </div>
+    </section>
+    </main>
+    <footer id="contacto">
+        <div class="contacto">
+            <p>Dirección: Antofagasta, Caro y Montesinos</p>
+            <p>Email: contacto@mi_colegio.edu.bo</p>
+            <p>Teléfono: 52 54070</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

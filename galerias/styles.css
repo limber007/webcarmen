@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d0016;
+    color: white;
+    padding: 20px;
+}
+nav {
+    font-size: 20px;
+    display: flex;
+    padding-right: 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+.filters{
+    text-align: center;
+    margin-top: 20px;
+}
+.filter-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+h2{
+    text-align: center;
+}
+.seccion-galeria{
+    background-color: #f2f2f2;
+    text-align: left;
+}
+.banda{
+    background-color: #f2f2f2;
+    text-align: left;
+}
+.infraestructura{
+    background-color: #f2f2f2;
+    text-align: left;
+    }
+.galeria2{    
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+.galleryitem{
+    width: 450px;
+    height: 400px;
+    align-items: center;
+}
+.videos2 {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.seccion-galeria, .seccion-videos {
+    background-color: #e6e6e6;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;}
+.seccion-ubicacion{
+    background-color: #e6e6e6;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
